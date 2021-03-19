@@ -8,8 +8,7 @@
     <title>Prueba Tita Media para Frontend Jr</title>
     <link rel="stylesheet" href="css/estilo.css">
     <meta name="author" content="Jonathan Castro">
-    <title>Titamedia Test Frontend Jr</title>
-    <script src="https://kit.fontawesome.com/922b88e6ac.js" crossorigin="anonymous"></script>
+     <script src="https://kit.fontawesome.com/922b88e6ac.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
 </head>
@@ -18,7 +17,8 @@
         <header class="header">
             <div class="menu">
                 <div>
-                    <img src="images/logo.png" class="logo" alt="logo"></div>
+                    <img src="images/logo.png" class="logo" alt="logo">
+                </div>
                 <nav class="nav">
                     <ul class="nav__ul">
                         <li class="nav__li"><a href="#"><span class="nav__li-All">All</span></a></li>
@@ -60,16 +60,16 @@
             </div>
 
             <div class="main__grid">
-                <img src="images/img01.jpg" alt="">
-                <img src="images/img02.jpg" alt="">
-                <img src="images/img03.jpg" alt="">
-                <img src="images/img04.jpg" alt="">
-                <img src="images/img05.jpg" alt="">
-                <img src="images/img06.jpg" alt="">
-                <img src="images/img07.jpg" alt="">
-                <img src="images/img08.jpg" alt="">
-                <img src="images/img09.jpg" alt="">
-                <img src="images/img10.jpg" alt="">
+                <img src="images/img01.jpg" alt="imagen 1">
+                <img src="images/img02.jpg" alt="imagen 2">
+                <img src="images/img03.jpg" alt="imagen 3">
+                <img src="images/img04.jpg" alt="imagen 4">
+                <img src="images/img05.jpg" alt="imagen 5">
+                <img src="images/img06.jpg" alt="imagen 6">
+                <img src="images/img07.jpg" alt="imagen 7">
+                <img src="images/img08.jpg" alt="imagen 8">
+                <img src="images/img09.jpg" alt="imegen 9">
+                <img src="images/img10.jpg" alt="imagen 10">
             </div>
             <div class="main__nav-gridButton">
                 <button class="maingrid__button">Show Me More</button>
@@ -91,7 +91,22 @@
             </div>
         </footer>
     </div>
+    <script src="js/images.js"></script>
+    <script src="json/images.json"> </script>    
+    <script>
+        var img1=imgGrid[0].url;
+        var img3=imgGrid[2].url;
+        var img2=imgGrid[1].url;
+        var img4=imgGrid[3].url;
+        var img5=imgGrid[4].url;
+        var img6=imgGrid[5].url;
+        var img7=imgGrid[6].url;
+        var img8=imgGrid[7].url;
+        var img9=imgGrid[8].url;
+        var img10=imgGrid[9].url; 
+        console.log(img1);   
+        console.log(imgGrid);   
 
-    <script src="/json/images.json"> </script>    
+    </script>
 </body>
 </html> 
